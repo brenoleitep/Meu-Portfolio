@@ -1,3 +1,5 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Lottie from "lottie-react";
 import Texts from "../Texts";
 import dev from "../Lotties/developer.json";
@@ -7,31 +9,28 @@ import {
   StyledIntroduction,
   StyledLottieIntroduction,
 } from "./style";
-import Header from "../Header";
 
 const Introduction = () => {
   return (
     <StyledIntroduction>
       <StyledDivisionIntroduction>
         <StyledDivIntroduction>
-          <h2>
+          <h2 data-aos="fade-up">
             <Texts text="Olá, meu nome é" />
           </h2>
-
-          <h1>
+          <h1 data-aos="fade-up">
             <Texts text="Breno Leite" />
           </h1>
-          <h3>
+          <h3 data-aos="fade-up">
             <Texts text="Eu desenvolvo aplicações para a web." />
           </h3>
-          <p>
+          <p data-aos="fade-up">
             <Texts text="Eu sou um desenvolvedor web especializado em criar aplicações front-end para a web. Atualmente estou focado em construir landing pages e me tornar um desenvolvedor full-stack." />
           </p>
-
-          <button>Saiba mais sobre mim</button>
+          <button data-aos="fade-up">Saiba mais sobre mim</button>
         </StyledDivIntroduction>
 
-        <StyledLottieIntroduction>
+        <StyledLottieIntroduction data-aos="fade-up">
           <Lottie animationData={dev} />
         </StyledLottieIntroduction>
       </StyledDivisionIntroduction>
