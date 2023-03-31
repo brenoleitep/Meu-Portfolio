@@ -9,15 +9,14 @@ const Header = () => {
         <div>
           <Lottie animationData={reactIcon} />
         </div>
-        <h2>Breno Leite</h2>
       </StyledLottie>
 
       <ul>
-        <li>Sobre mim</li>
-        <li>Serviços</li>
-        <li>Resumo</li>
-        <li>Contato</li>
-        <li>Skills</li>
+        <li>01. Sobre mim</li>
+        <li>02. Serviços</li>
+        <li>03. Resumo</li>
+        <li>04. Contato</li>
+        <li>05. Skills</li>
       </ul>
     </StyledHeader>
   );

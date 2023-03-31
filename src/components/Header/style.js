@@ -4,9 +4,11 @@ export const StyledHeader = styled.header`
   display: flex;
   width: 100%;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  margin-top: 20px;
+  top: 0px;
+  padding: 20px;
+  box-shadow: #64ffda -1px 0px 7px 0px;
 
   ul {
     display: flex;
@@ -16,13 +18,15 @@ export const StyledHeader = styled.header`
 
   li {
     padding: 10px;
-    border: 1px solid #251e2c;
+    border: 2px solid #0a192f;
+    color: #64ffda;
 
     :hover {
-      background-color: #251e2c;
+      background-color: #0a192f;
       cursor: pointer;
-      border: 1px solid white;
+      border: 2px solid white;
       border-radius: 10px;
+      color: white;
     }
   }
 

@@ -30,11 +30,11 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-color: #251E2C;
+	background-color: #0A192F;
 	color: white;
 }
 ol, ul {
-	list-style: none;
+	list-style: none
 }
 blockquote, q {
 	quotes: none;
