@@ -19,14 +19,14 @@ export const StyledHeader = styled.header`
   li {
     padding: 10px;
     border: 2px solid #0a192f;
-    color: #64ffda;
+    color: #ccd6f6;
 
     :hover {
       background-color: #0a192f;
       cursor: pointer;
-      border: 2px solid white;
+      border: 2px solid #64ffda;
       border-radius: 10px;
-      color: white;
+      color: #64ffda;
     }
   }
 

@@ -15,14 +15,17 @@ const Introduction = () => {
       <StyledDivisionIntroduction>
         <StyledDivIntroduction>
           <h2>
-            <Texts text="Olá, meu nome é." />
+            <Texts text="Olá, meu nome é" />
           </h2>
 
           <h1>
             <Texts text="Breno Leite" />
           </h1>
+          <h3>
+            <Texts text="Eu desenvolvo aplicações para a web." />
+          </h3>
           <p>
-            <Texts text="Seja bem-vindo(a) ao meu portfólio website." />
+            <Texts text="Eu sou um desenvolvedor web especializado em criar aplicações front-end para a web. Atualmente estou focado em construir landing pages e me tornar um desenvolvedor full-stack." />
           </p>
 
           <button>Saiba mais sobre mim</button>

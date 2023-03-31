@@ -6,7 +6,7 @@ const Texts = (props) => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCount((count) => count + 1);
-    }, 100);
+    }, 70);
 
     return () => clearInterval(intervalId);
   }, []);

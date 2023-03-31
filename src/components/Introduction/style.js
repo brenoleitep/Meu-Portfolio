@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const StyledIntroduction = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   justify-content: center;
   position: relative;
 `;
@@ -13,26 +12,43 @@ export const StyledDivIntroduction = styled.div`
   flex-direction: column;
   margin: 0 auto;
   min-width: 40%;
-  gap: 40px;
+  gap: 20px;
 
   h1 {
+    font-size: 60px;
+    color: #ccd6f6;
+    font-weight: 600;
+  }
+
+  h3 {
     font-size: 50px;
+    color: #ccd6f6;
+    opacity: 70%;
+    font-weight: 600;
   }
 
   h2 {
-    font-size: 16px;
+    font-size: 14px;
     color: #64ffda;
+    font-weight: 400;
+  }
+
+  p {
+    font-size: 16px;
+    color: #ccd6f6;
+    opacity: 70%;
   }
 
   button {
-    width: 430px;
+    width: 300px;
     padding: 15px;
-    background-color: #251e2c;
+    background-color: #0a192f;
     cursor: pointer;
-    border: 1px solid white;
-    border-radius: 10px;
-    color: white;
+    border: 1px solid #64ffda;
+    border-radius: 4px;
+    color: #64ffda;
     font-size: 18px;
+    margin-top: 50px;
   }
 `;
 
