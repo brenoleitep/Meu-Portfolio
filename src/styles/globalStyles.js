@@ -32,6 +32,27 @@ body {
 	line-height: 1;
 	background-color: #0A192F;
 	color: white;
+
+	height: 100%;
+  overflow-y: auto;
+
+  /* Personalizando o scroll */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
 }
 ol, ul {
 	list-style: none

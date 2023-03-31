@@ -10,6 +10,10 @@ export const StyledHeader = styled.header`
   padding: 15px 200px;
   box-shadow: #10274a -1px 0px 9px 0px;
 
+  /* @media (max-width: 760px) {
+    display: none;
+  } */
+
   ul {
     display: flex;
     gap: 10px;

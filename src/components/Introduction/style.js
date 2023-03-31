@@ -3,7 +3,9 @@ import styled from "styled-components";
 export const StyledIntroduction = styled.div`
   display: flex;
   flex-direction: column;
+  min-height: 90vh;
   justify-content: center;
+  align-items: center;
   position: relative;
 `;
 
@@ -72,4 +74,8 @@ export const StyledDivisionIntroduction = styled.div`
 
 export const StyledLottieIntroduction = styled.div`
   min-width: 60%;
+
+  @media (max-width: 1080px) {
+    display: none;
+  }
 `;
