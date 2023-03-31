@@ -24,17 +24,17 @@ const Introduction = () => {
         }}
       >
         <StyledDivisionIntroduction>
-          <StyledDivIntroduction>
-            <h2 data-aos="fade-up">
+          <StyledDivIntroduction data-aos="fade-up">
+            <h2>
               <Texts text="Olá, meu nome é" />
             </h2>
-            <h1 data-aos="fade-up">
+            <h1>
               <Texts text="Breno Leite" />
             </h1>
-            <h3 data-aos="fade-up">
+            <h3>
               <Texts text="Eu desenvolvo aplicações para a web." />
             </h3>
-            <p data-aos="fade-up">
+            <p>
               <Texts text="Eu sou um desenvolvedor web especializado em criar aplicações front-end para a web. Atualmente estou focado em construir landing pages e me tornar um desenvolvedor full-stack." />
             </p>
             <button data-aos="fade-up">Saiba mais sobre mim</button>

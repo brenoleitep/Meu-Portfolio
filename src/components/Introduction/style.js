@@ -21,10 +21,10 @@ export const StyledDivIntroduction = styled.div`
   }
 
   h3 {
-    font-size: 50px;
+    font-size: 45px;
     color: #ccd6f6;
-    opacity: 70%;
-    font-weight: 600;
+    opacity: 60%;
+    /* font-weight: 600; */
   }
 
   h2 {
@@ -49,6 +49,16 @@ export const StyledDivIntroduction = styled.div`
     color: #64ffda;
     font-size: 18px;
     margin-top: 50px;
+    transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+    :hover {
+      background-color: #0a192f;
+      cursor: pointer;
+      border: 1px solid #64ffda;
+      border-radius: 4px;
+      color: #64ffda;
+      background-color: rgba(100, 255, 218, 0.2);
+    }
   }
 `;
 
