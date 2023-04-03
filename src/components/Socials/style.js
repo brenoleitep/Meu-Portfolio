@@ -5,14 +5,14 @@ export const StyledLine = styled.div`
   opacity: 70%;
   height: 100px;
 
-  @media (max-width: 760px) {
+  @media (max-width: 1080px) {
     display: none;
   }
 `;
 
 export const StyledIcons = styled.div`
   position: fixed;
-  left: 50px;
+  left: 10px;
   bottom: 1px;
   display: flex;
   flex-direction: column;

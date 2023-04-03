@@ -1,25 +1,16 @@
 import styled from "styled-components";
 
-export const StyledHeader = styled.header`
+export const StyledHeader = styled.nav`
   display: flex;
-  width: 100%;
+  min-width: 100%;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   top: 0px;
-  padding: 15px 200px;
-  box-shadow: #10274a -1px 0px 9px 0px;
-
-  /* @media (max-width: 760px) {
-    display: none;
-  } */
+  padding: 15px;
+  box-shadow: #10274a 0 0 20px 3px;
 
   ul {
-    display: flex;
-    gap: 10px;
-    font-size: 18px;
-    align-items: center;
-
     button {
       width: 100px;
       padding: 10px;
@@ -42,6 +33,7 @@ export const StyledHeader = styled.header`
     border: 1px solid #0a192f;
     color: #ccd6f6;
     font-size: 14px;
+    width: 140px;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 
     :hover {
