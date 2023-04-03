@@ -4,10 +4,7 @@ const Ul = styled.ul`
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
-
-  li {
-    padding: 18px 10px;
-  }
+  gap: 10px;
 
   @media (max-width: 768px) {
     flex-flow: column nowrap;
@@ -29,6 +26,7 @@ const Ul = styled.ul`
 
     li {
       color: #fff;
+      padding: 18px 10px;
     }
   }
 `;
