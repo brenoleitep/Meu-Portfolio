@@ -5,19 +5,29 @@ export const StyledLine = styled.div`
   opacity: 70%;
   height: 100px;
 
-  @media (max-width: 1080px) {
+  @media (max-width: 1300px) {
     display: none;
   }
 `;
 
 export const StyledIcons = styled.div`
   position: fixed;
-  left: 10px;
   bottom: 1px;
+  left: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 15px;
+
+  @media (max-width: 1300px) {
+    display: none;
+    left: 10px;
+  }
+
+  @media (min-width: 1500px) {
+    /* display: none; */
+    left: 30px;
+  }
 
   svg {
     height: 25px;
