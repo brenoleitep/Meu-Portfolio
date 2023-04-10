@@ -8,6 +8,7 @@ export const StyledHeader = styled.nav`
   align-items: center;
   top: 0px;
   padding: 15px;
+  position: relative;
   box-shadow: #10274a 0 0 20px 3px;
 
   ul {

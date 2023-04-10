@@ -44,6 +44,18 @@ export const StyledDivisor = styled.div`
     width: 60%;
     max-width: 600px;
     border-radius: 10px;
+    filter: sepia(60%);
+    opacity: 0.7;
+    transition: opacity 0.25s linear;
+    will-change: opacity;
+
+    &:hover {
+      opacity: 1;
+      transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s,
+        transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+      filter: sepia(0%);
+    }
 
     @media (max-width: 1080px) {
       width: 90%;
