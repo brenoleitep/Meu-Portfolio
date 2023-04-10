@@ -1,3 +1,4 @@
+import AboutMe from "./components/AboutMe";
 import Header from "./components/Header";
 import Introduction from "./components/Introduction";
 import Socials from "./components/Socials";
@@ -10,6 +11,7 @@ function App() {
       <Socials />
       <StyledMain>
         <Introduction />
+        <AboutMe />
       </StyledMain>
     </div>
   );
