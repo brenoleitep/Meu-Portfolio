@@ -35,8 +35,8 @@ const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
       <li>01. Sobre mim</li>
-      <li>02. Serviços</li>
-      <li>03. Skills</li>
+      <li>02. Skills</li>
+      <li>03. Projetos</li>
       <li>04. Contato</li>
 
       <button>Resumo</button>
