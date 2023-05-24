@@ -5,6 +5,7 @@ export const StyledSkills = styled.div`
   flex-direction: column;
   gap: 40px;
   align-items: flex-start;
+  min-height: 50vh;
 `;
 
 export const StyledLineSkills = styled.div`

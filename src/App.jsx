@@ -7,7 +7,7 @@ import { StyledMain } from "./styles/main";
 function App() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <StyledMain>
         <Introduction />
         <AboutMe />

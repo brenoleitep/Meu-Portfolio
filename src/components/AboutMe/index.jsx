@@ -17,7 +17,7 @@ const AboutMe = () => {
           <TextDiff>01.</TextDiff> Sobre mim
         </h2>
 
-        <Line />
+        {/* <Line /> */}
       </StyledLine>
 
       <StyledDivisor>
@@ -40,7 +40,7 @@ const AboutMe = () => {
           </p>
         </div>
 
-        <img src={ceritificado} alt="Certificado desenvolvedor front-end" />
+        {/* <img src={ceritificado} alt="Certificado desenvolvedor front-end" /> */}
       </StyledDivisor>
     </StyledAboutMe>
   );

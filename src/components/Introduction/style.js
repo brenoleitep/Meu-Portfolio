@@ -7,9 +7,10 @@ export const StyledIntroduction = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
+`;
 
-  div {
-    display: flex;
+export const DivGithub = styled.div `
+display: flex;
     gap: 20px;
 
     svg {
@@ -20,9 +21,7 @@ export const StyledIntroduction = styled.div`
       &:hover {
         color: blue
       }
-    }
-  }
-`;
+    }`
 
 export const StyledDivIntroduction = styled.div`
   display: flex;

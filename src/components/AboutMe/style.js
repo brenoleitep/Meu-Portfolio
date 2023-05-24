@@ -5,6 +5,7 @@ export const StyledAboutMe = styled.div`
   flex-direction: column;
   gap: 40px;
   align-items: flex-start;
+  min-height: 50vh;
 
   h2 {
     font-size: 26px;

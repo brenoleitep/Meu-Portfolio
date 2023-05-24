@@ -4,6 +4,7 @@ import Lottie from "lottie-react";
 import Texts from "../Texts";
 import dev from "../Lotties/developer.json";
 import {
+  DivGithub,
   StyledDivIntroduction,
   StyledDivisionIntroduction,
   StyledIntroduction,
@@ -40,7 +41,7 @@ const Introduction = () => {
               <Texts text="Eu sou um desenvolvedor web especializado em criar aplicações front-end para a web. Atualmente estou focado em construir landing pages e me tornar um desenvolvedor full-stack." />
             </p>
 
-            <div>
+            <DivGithub>
               <a href="https://github.com/brenodevreact" target="blank">
             <FiGithub />
               </a>
@@ -50,7 +51,7 @@ const Introduction = () => {
               <a href="mailto:brenoleitepereira@gmail.com" target="blank">
             <SiGmail />
               </a>
-            </div>
+            </DivGithub>
           </StyledDivIntroduction>
 
           <StyledLottieIntroduction data-aos="fade-up">
