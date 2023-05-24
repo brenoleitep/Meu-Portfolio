@@ -1,6 +1,7 @@
 import { TextDiff } from "../AboutMe/style"
 import Curiosidades from "../../assets/curiosidadebr.jpg"
 import Shape from "../../assets/shapeimage.jpg"
+import PPL from "../../assets/ppl.png"
 import { StyledDivProjects, StyledDivStacks, StyledMainProjects } from "./style"
 import { SiVercel, SiGithub } from "react-icons/si"
 
@@ -33,6 +34,7 @@ const Projects = () => {
               <li>- React-Toastify</li>
               <li>- Lottie-React</li>
               <li>- React-Router-Dom</li>
+              <li>- Data-AOS</li>
             </ul>
           </div>
         </StyledDivStacks>
@@ -88,6 +90,44 @@ const Projects = () => {
 
           </a>
           <a href="https://github.com/brenodevreact/shape-for-react" target="blank">
+            <SiGithub />
+            Repositório
+          </a>
+        </div>
+      </StyledDivProjects>
+
+      <StyledDivProjects>
+        <h4>
+          <TextDiff>03.</TextDiff> Landing Page
+        </h4>
+
+        <StyledDivStacks>
+
+          <a href="https://landingpage-4mhsa3fcq-brenoleitep.vercel.app/" target="blank">
+            <img src={PPL} alt="PPL Page" />
+          </a>
+
+          <div>
+            <ul>
+              <h2>Stacks Usadas</h2>
+              <li>- ReactJs</li>
+              <li>- Javascript</li>
+              <li>- Styled-Components</li>
+              <li>- Framer-motion</li>
+              <li>- Data-AOS</li>
+              <li>- HTML</li>
+            </ul>
+          </div>
+        </StyledDivStacks>
+        <p>O PPL foi um freelancer que eu desenvolvi para um cliente, uma landing page com o objetivo de fazer uma página alinhada a um design com uma leve tendencia espacial. Ele possui várias animações interativas com o usuário.</p>
+
+        <div>
+          <a href="https://landingpage-4mhsa3fcq-brenoleitep.vercel.app/" target="blank">
+            <SiVercel />
+            Vercel
+
+          </a>
+          <a href="https://github.com/brenodevreact/landingpage" target="blank">
             <SiGithub />
             Repositório
           </a>

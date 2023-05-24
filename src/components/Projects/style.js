@@ -26,7 +26,7 @@ export const StyledDivStacks = styled.div`
             max-width: 327px;
             flex-direction: column;
             background-color: #0A192F;
-            box-shadow: 0px 0px 4px 0px #fff;
+            box-shadow: 0px 0px 4px 0px #64ffda;;
             
             padding: 20px;
             height: 280px;
@@ -87,6 +87,12 @@ export const StyledDivProjects = styled.div`
             svg {
                 width: 48px;
                 height: 48px;
+                transition: transform 0.4s ease;
+
+                &:hover {
+                color: #64ffda;
+                transform: scale(1.1);
+            }
             }
             color: white;
             text-decoration: none;
@@ -95,9 +101,7 @@ export const StyledDivProjects = styled.div`
                 color: white;
             }
 
-            &:hover {
-                color: blue;
-            }
+           
         }
     }
 
