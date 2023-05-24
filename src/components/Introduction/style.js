@@ -9,17 +9,24 @@ export const StyledIntroduction = styled.div`
   position: relative;
 `;
 
-export const DivGithub = styled.div `
+export const DivGithub = styled.div`
 display: flex;
     gap: 20px;
 
+    a {
+      color: white;
+
+      &:visited {
+        color: white
+      }
+    }
     svg {
       width: 43px;
       height: 43px;
       cursor: pointer;
 
       &:hover {
-        color: blue
+        color: #64ffda;
       }
     }`
 
