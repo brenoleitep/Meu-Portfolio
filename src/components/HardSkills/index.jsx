@@ -18,7 +18,6 @@ const HardSkills = () => {
           <TextDiff>02.</TextDiff> Minhas Skills
         </h2>
 
-        {/* <LineSkills /> */}
       </StyledLineSkills>
 
       <StyledHardSkills>

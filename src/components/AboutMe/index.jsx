@@ -40,7 +40,7 @@ const AboutMe = () => {
           </p>
         </div>
 
-        {/* <img src={ceritificado} alt="Certificado desenvolvedor front-end" /> */}
+        <img src={ceritificado} alt="Certificado desenvolvedor front-end" />
       </StyledDivisor>
     </StyledAboutMe>
   );
