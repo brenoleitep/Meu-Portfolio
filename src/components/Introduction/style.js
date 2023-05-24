@@ -7,6 +7,21 @@ export const StyledIntroduction = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
+
+  div {
+    display: flex;
+    gap: 20px;
+
+    svg {
+      width: 43px;
+      height: 43px;
+      cursor: pointer;
+
+      &:hover {
+        color: blue
+      }
+    }
+  }
 `;
 
 export const StyledDivIntroduction = styled.div`

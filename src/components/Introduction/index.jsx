@@ -9,6 +9,8 @@ import {
   StyledIntroduction,
   StyledLottieIntroduction,
 } from "./style";
+import { FiLinkedin, FiGithub } from "react-icons/fi";
+import { SiGmail } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const Introduction = () => {
@@ -37,7 +39,18 @@ const Introduction = () => {
             <p>
               <Texts text="Eu sou um desenvolvedor web especializado em criar aplicações front-end para a web. Atualmente estou focado em construir landing pages e me tornar um desenvolvedor full-stack." />
             </p>
-            <button data-aos="fade-up">Saiba mais sobre mim</button>
+
+            <div>
+              <a href="https://github.com/brenodevreact" target="blank">
+            <FiGithub />
+              </a>
+              <a href="https://www.linkedin.com/in/brenoleitep/" target="blank">
+            <FiLinkedin />
+              </a>
+              <a href="mailto:brenoleitepereira@gmail.com" target="blank">
+            <SiGmail />
+              </a>
+            </div>
           </StyledDivIntroduction>
 
           <StyledLottieIntroduction data-aos="fade-up">
